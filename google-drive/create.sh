@@ -15,7 +15,7 @@ if [ -z "$title" ] ; then title=$file; fi
 file_size=$(stat -c%s "$file")
 
 data='{"title":"'$title'","parents":[{"id": "'$parent_id'"}]}'
-echo $data 2>&1
+echo $data 1>&2
 
 curl https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable \
     -H "Authorization: Bearer $access_token" \
