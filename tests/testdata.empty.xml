@@ -4,4 +4,5 @@
         <client-secret></client-secret>
         <refresh-token></refresh-token>
     </google>
+    <encrypt-recipient></encrypt-recipient>
 </settings>
