@@ -1,0 +1,7 @@
+<settings>
+    <google>
+        <client-id></client-id>
+        <client-secret></client-secret>
+        <refresh-token></refresh-token>
+    </google>
+</settings>
