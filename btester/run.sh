@@ -53,3 +53,10 @@ else
 fi
 
 echo -e "\E[0m"
+
+# exit based on number of failed tests
+if [ $err_count -gt 254 ] ; then
+    exit 254;
+else
+    exit $err_count
+fi
