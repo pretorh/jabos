@@ -3,6 +3,8 @@
         <client-id></client-id>
         <client-secret></client-secret>
         <refresh-token></refresh-token>
+        <access-token></access-token>
+        <upload-to-id></upload-to-id>
     </google>
     <encrypt-recipient></encrypt-recipient>
 </settings>
