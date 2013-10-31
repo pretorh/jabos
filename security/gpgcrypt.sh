@@ -18,6 +18,7 @@ in=$1
 out=$in.gpg
 
 gpg --output "$out" \
+    --trust-model always \
     --encrypt \
     $recipientList \
     "$in"
